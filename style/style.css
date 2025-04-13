@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    font-family: "Inter", sans-serif;
+}
+
+.headerNav {
+    width: max-content;
+}
+
+.headerNav li a {
+    font-weight: bold;
+}
+
+#Nav-btn .fa-phone {
+    color: #fc0002;
+}
+
+.navbarTogglerBtn:focus {
+    box-shadow: none;
+}
+
+.brochure-Btn-text {
+    font-size: x-small;
+}
+
+.navbartoprightbtn button:nth-child(2) i {
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+}
+
+.navbartoprightbtn button:nth-child(3) {
+    padding: 10px 10px !important;
+}
+
+.HeaderScholorshipbtn {
+    animation: Dangercoloreffect 1s infinite;
+}
+
+@keyframes Dangercoloreffect {
+    0% {
+        box-shadow: 0px 0px 0px #fc0002;
+    }
+
+    50% {
+        box-shadow: 0px 0px 50px #fc0002;
+    }
+
+    100% {
+        box-shadow: 0px 0px 0px #fc0002;
+    }
+
+}
+
+.our-courseHover:hover .course-Item {
+    display: block;
+    margin-top: 0;
+    /* remove the gap so it doesn't close */
+}
+
+.offcanvas {
+    max-width: 80%;
+}
+
+.carousel-prev-btn {
+    width: 5%;
+}
+
+.carousel-Arrow {
+    width: 50px;
+    height: 50px;
+    background: rgba(0, 0, 0, 0.47);
+}
+
+.headTopCarouselindicator button {
+    width: 8px !important;
+    height: 8px !important;
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: #fc0002;
+    color: white !important;
+}
+
+.dropdown-item:hover i {
+    font-family: "FontAwesome";
+    color: white !important;
+}
+
+.headerNav {
+    width: 100%;
+}
+
+.navbar-expand-lg .navbar-nav {
+    width: max-content;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: #fc0002 !important;
+}
+
+.StudentHighlight {
+    padding-right: 0px !important;
+}
+
+.clat-2025Card {
+    padding-bottom: 30px !important;
+}
+
+.clat-2025Card img {
+    width: 60px;
+}
+
+.clat-2025Card span {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.studentHighlightRow {
+    padding-left: 0px !important;
+}
+
+.oneText {
+    font-size: 100px;
+    bottom: -40px;
+    right: 40px;
+    color: #fff;
+    opacity: 20%;
+}
+
+.studentAirRank {
+    overflow: hidden;
+}
+
+.studentAirRank img {
+    transition: 0.2s;
+}
+
+.studentAirRank img:hover {
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.triangle {
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-right: 20px solid #dc3545;
+    position: absolute;
+    top: 50px;
+    left: -35px;
+    z-index: 1;
+}
+
+.triangle-right {
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid #dc3545;
+    border-right: 20px solid transparent;
+    position: absolute;
+    top: 50px;
+    right: -35px;
+    z-index: 1;
+}
+
+.intro-bgtriangle {
+    border-right: 20px solid #ffecec;
+}
+
+.intro-bgtriangle-right {
+    border-left: 20px solid #ffecec;
+}
+
+.intro-bg {
+    background-color: #ffecec;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background-color: #fc0002;
+}
+
+.LawPrepTutorial {
+    background-color: #f6f6f6;
+}
+
+.btn-viewDetail:link,
+.btn-viewDetail:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.299);
+}
+
+.btn-viewDetail:hover {
+    transform: translateY(3px);
+    background-color: #fc0002;
+    color: white;
+    border-bottom: 5px solid rgba(0, 0, 0, 0);
+}
+
+.btn-viewDetail:active {
+    transform: translateY(1px);
+}
+
+.btn-red {
+    background-color: #fc0002;
+    color: white;
+}
+
+.btn-viewDetail::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 1s;
+}
+
+.btn-red::after {
+    background-color: #fc0002;
+}
+
+.btn-viewDetail:hover::after {
+    transform: scaleX(1.1) scaleY(1.6);
+    opacity: 0;
+}
+
+.btn-animated {
+    animation: moveInBottom 5s ease-out;
+    animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+.tutorial-card img {
+    transition: 0.5s ease;
+}
+
+.tutorial-card:hover img {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+.scholorshipText {
+    font-size: 100px;
+    left: 50px;
+}
+
+.text-scholorshipPart {
+    font-size: 100px;
+}
+
+.Red-bg {
+    position: relative;
+}
+
+.Red-bg::after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50%;
+    display: inline;
+    background: #fc0002;
+    z-index: -1;
+}
+
+.applyNowBtnOnScholorship:hover {
+    color: #fc0002;
+}
+
+.ResourceCard {
+    background: url('../images/Basic-CLAT-Test-Series-2025.webp') no-repeat center center;
+    background-size: cover;
+    position: relative;
+}
+
+.resouceCard1 {
+    background: url('../images/15-CLAT-Mock-Test-PDFs.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.resourceCard2 {
+    background: url('../images/Essential-CLAT-Test-Series-2025.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.ResourceCard::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #c40309db;
+    z-index: 0;
+
+}
+
+.ResourceCard>div {
+    position: relative;
+    z-index: 2;
+    /* puts content above overlay */
+}
+
+.borderlt-rb-5px {
+    border-radius: 0px 5px 0px 5px;
+}
+
+.fs-14pxAll {
+    font-size: 14px;
+}
+
+.fc002redbackground {
+    background-color: #fc0002;
+}
+
+.bg-campusimg {
+    background: url('../images/why.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.padding-top20px {
+    padding-top: 20px;
+}
+
+.backgroundwiteshred {
+    background-color: #fdeeeb;
+}
+
+.youtubeplaybtn {
+    position: relative;
+}
+
+.playbtn {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.playbtnicon {
+    width: 70px;
+    height: 70px;
+    color: #fc0002;
+    box-shadow: rgba(255, 255, 255, 0.02) 0px 0px 0px 29.3596px;
+    animation: 2s infinite Playbuttonwave;
+}
+
+@keyframes Playbuttonwave {
+    0% {
+        box-shadow: 0 0 0 0 #ffff;
+    }
+
+    100% {
+        box-shadow: 0 0 0 30px transparent;
+    }
+}
+
+.whitesmokeborder {
+    border: 1px solid #efefef;
+}
+
+.playbtniconsmall {
+    width: 50px;
+    height: 50px;
+    color: #fc0002;
+}
+
+.fs-11pxAll {
+    font-size: 11px;
+}
+
+.pright {
+    padding-right: 0px !important;
+}
+
+.pleft {
+    padding-left: 10px !important;
+}
+
+.dark-light {
+    background-color: #f6f6f6;
+}
+
+.no-bg {
+    background-image: none !important;
+}
+
+.modal.fade .modal-dialog {
+    top: 50%;
+    transform: translate(0%, -100%);
+    transition: transform 0.3s ease-out;
+}
+
+.modal.show .modal-dialog {
+    transform: translate(0, -50%);
+}
+
+.bg-newspaper {
+    background: url('../images/newspaper.webp') no-repeat center center;
+    background-size: cover;
+}
+
+.line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* Show max 2 lines */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.no-hover {
+    pointer-events: none;
+}
+
+.xxlfs {
+    font-size: 110px;
+}
+
+.clean-outline {
+    font-family: 'Poppins', sans-serif;
+    /* or another clean font */
+    font-weight: 700;
+    /* bold weight works better */
+    color: transparent;
+    -webkit-text-stroke: 1px #96979d;
+    /* stroke thickness and color */
+    text-stroke: 1px #96979d;
+    /* fallback */
+    letter-spacing: 1px;
+    /* optional: adds spacing */
+
+}
+
+.freecounsellingbg {
+    position: relative;
+}
+
+.freecounsellingbg::after {
+    content: '';
+    width: 100%;
+    height: 50%;
+    background-color: #fdeeeb;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.freecounsellingform {
+    top: 250px;
+    right: 100px;
+}
+
+.borderlightwhite {
+    border: 1px solid #e4e6ea;
+}
+
+ /* Force wrapper to take full width */
+ .intl-tel-input {
+    width: 100% !important;
+  }
+
+  .intl-tel-input .iti__country-list {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Match input inside as well */
+  .intl-tel-input input {
+    width: 100% !important;
+  }
+  .iti {
+    width: 100%;
+    display: block;
+  }
+
+  .h50px{
+    height: 50px;
+  }
+
+  .eventandactivitiesbg{
+    background: url('../images/Rectangle-872.webp') no-repeat top center;
+    background-size: cover;
+  }
+  .black-bg{
+    background-color: #292933;
+  }
+  .socialmediaHoverscale{
+    transition: 0.2s;
+  }
+  .socialmediaHoverscale:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+  }
+  .fs13pxAll{
+    font-size: 13px;
+  }
+  .greyBg{
+    background-color: #51545b;
+  }

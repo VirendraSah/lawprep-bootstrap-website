@@ -1,0 +1,84 @@
+@media only screen and (min-width:0px) and (max-width:576px){
+    .navLogo img{
+        width: 80px;
+    }
+    .navbartoprightbtn button:nth-child(3){
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .navbar-content-wrapper{
+        padding-left:0px ;
+        padding-right: 0px;
+    }
+    .StudentHighlight{
+        padding: 10px !important;
+    }
+    .studentHighlightRow{
+        padding-right: 0px !important;
+    }
+    .clat-2025Card img{
+        width: 40px;
+    }
+    .clat-2025Card figcaption{
+        font-size: 13px;
+    }
+    .clat-2025Card span{
+        font-size: 13px;
+    }
+    .scholorshipText {
+        font-size: 50px;
+        left: 0px;
+        position: static !important;
+    }
+    .text-scholorshipPart{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .text-scholorshipPart span{
+        font-size: 57px;
+    }
+    .Red-bg::after{
+        height: 70%;
+    }
+    .fs-14px{
+        font-size: 14px;
+    }
+    .mobilepx-sm-0{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .freecounsellingform{
+        position: static !important;
+    }
+    .clean-outline{
+        font-size: 30px;
+        
+    }
+}
+@media only screen and (min-width:577px) and (max-width:970px){
+    .navLogo img{
+        width: 80px;
+    }
+    .scholorshipText {
+        font-size: 50px;
+        left: 0px;
+        position: static !important;
+    }
+    .text-scholorshipPart{
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .text-scholorshipPart span{
+        font-size: 57px;
+    }
+    .Red-bg::after{
+        height: 70%;
+    }
+    .freecounsellingform{
+        position: static !important;
+    }
+    .clean-outline{
+        font-size: 50px;
+        
+    }
+}
